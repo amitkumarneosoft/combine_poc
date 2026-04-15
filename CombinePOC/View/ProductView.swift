@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProductView: View {
-    let viewModel: ProductViewModel
+    @State var viewModel: ProductViewModel
     @State private var searchText: String = ""
     
     var body: some View {
